@@ -3,14 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RouterOutlet } from '@angular/router';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { SideBarItemsComponent } from './components/side-bar-items/side-bar-items.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    SidebarComponent,
+    SideBarItemsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterOutlet
   ],
   providers: [],
   bootstrap: [AppComponent]
