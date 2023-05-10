@@ -2,4 +2,9 @@
   padding: 10px;
   text-align: center;
   align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  background-color: #2d2d30;
+  margin: auto;
 }

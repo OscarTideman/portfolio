@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-side-bar-items',
@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class SideBarItemsComponent {
 
+  @Input() text: string | undefined; //Name of the link
+  @Input() pageComponent: string | undefined; //Name of the link
+
+  constructor() {
+
+  }
 }
