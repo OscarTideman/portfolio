@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    margin-right: 200px;
+    padding-right: 200px;
+    background: #121212;
+}
+
+.flexbox-container{
+    padding-top: 100px;
+    padding-right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-container p{
+    max-width: 1000px;
+    font-size: large;
+    color: #cccccc;
+    font-family: Montserrat;
+}
+
+.flexbox-container h1{
+    color: #cccccc;
+    font-family: Montserrat;
+}
+
+.flexbox-container i{
+    font-size: 100px;
+    color: #305EB8;
+    margin-top: 100px;
+    margin-right: 75px;
+}
+
+.flexbox-item{
+    width: 500px;
+    margin: 10px;
+}
+
+#cursor{
+    width: 3px;
+    margin-left: 0.2rem;
+    animation: blink 1s infinite;
+    color: white;
+}
+
+#profilePicture{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+
+@keyframes blink{
+    0% { background-color: white;}
+    49% { background-color: white;}
+    50% { background-color: transparent;}
+    99% { background-color: transparent;}
+    100% { background-color: white;}
+}

@@ -9,6 +9,11 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { SideBarItemsComponent } from './components/side-bar-items/side-bar-items.component';
 import { ProjectsPageComponent } from './components/projects-page/projects-page.component';
 import { ContactPageComponent } from './components/contact-page/contact-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -17,12 +22,14 @@ import { ContactPageComponent } from './components/contact-page/contact-page.com
     SidebarComponent,
     SideBarItemsComponent,
     ProjectsPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterOutlet
+    RouterOutlet,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
