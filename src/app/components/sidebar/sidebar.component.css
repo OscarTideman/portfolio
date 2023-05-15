@@ -2,7 +2,6 @@
   height: 100%;
   width: 200px;
   position: fixed;
-  padding-left: 10%;
   z-index: 1;
   top: 0;
   left: 0;
@@ -20,4 +19,25 @@
   flex: 0 0 auto; /* don't grow or shrink */
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.side-bar-item {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  margin-left: 57.5px;
+  border-radius: 20px;
+  background-color: #3d3d41;
+  color: #e7e7e7;
+}
+
+.side-bar-item:hover {
+  background-color: #4b4b50;
+  transform: scale(1.05);
+}
+
+.mat-icon-resized {
+  transform: scale(1.5);
 }

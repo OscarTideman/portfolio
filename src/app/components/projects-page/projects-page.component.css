@@ -1,0 +1,35 @@
+img {
+  height: 300px;
+  width: 450px;
+  border-radius: 10%;
+  transition: transform .2s, border-radius .2s;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.images2 img {
+  height: 700px !important;
+}
+
+@media screen and (max-width: 1390px) {
+
+  .images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img{
+    padding-top: 10px;
+  }
+
+}
+
+img:hover {
+  transform: scale(1.05);
+  border-radius: 7%;
+}

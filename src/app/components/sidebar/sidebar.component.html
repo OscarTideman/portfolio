@@ -1,8 +1,12 @@
 <div class="side-bar">
   <div class="item-container">
-    <app-side-bar-items [text]="'Home'" [pageComponent]="'/Home'"></app-side-bar-items>
-    <app-side-bar-items [text]="'Projects'" [pageComponent]="'/Projects'"></app-side-bar-items>
-    <app-side-bar-items [text]="'Contact'" [pageComponent]="'/Contact'"></app-side-bar-items>
-    <app-side-bar-items [text]="'Download CV'" ></app-side-bar-items>
+    <app-side-bar-items [text]="'Home'" [pageComponent]="'/Home'" [Icon]="'home'"></app-side-bar-items>
+    <app-side-bar-items [text]="'Projects'" [pageComponent]="'/Projects'" [Icon]="'star'"></app-side-bar-items>
+    <app-side-bar-items [text]="'Contact'" [pageComponent]="'/Contact'" [Icon]="'contact_mail'"></app-side-bar-items>
+    <div class="side-bar-item" (click)="downloadFile()">
+      <mat-icon class="icon mat-icon-resized">cloud_download</mat-icon>
+      <p>CV</p>
+    </div>
+
   </div>
 </div>

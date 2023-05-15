@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { SideBarItemsComponent } from '../side-bar-items/side-bar-items.component';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,5 +6,13 @@ import { SideBarItemsComponent } from '../side-bar-items/side-bar-items.componen
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent {
+
+  downloadFile() {
+    const link = document.createElement('a');
+    link.href = '../../../assets/Oscar_Tideman_CV.pdf';
+    link.download = 'Oscar_Tideman_CV.pdf';
+    link.click();
+  }
+
 
 }

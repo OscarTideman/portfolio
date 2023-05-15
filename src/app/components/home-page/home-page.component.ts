@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 @Component({
   selector: 'app-home-page',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent {
-
+  faLinkedin = faLinkedin;
 }

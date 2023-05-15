@@ -1,5 +1,47 @@
-.card-container {
-  width: 30%;
-  height: 200px;
-  background-color: aqua;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    margin-right: 200px;
+    padding-right: 200px;
+    background: #121212;
+}
+
+.flexbox-container{
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flexbox-container p{
+    max-width: 1000px;
+    font-size: large;
+    color: #cccccc;
+    font-family: Montserrat;
+}
+
+.flexbox-container h1{
+    color: #cccccc;
+    font-family: Montserrat;
+}
+
+.flexbox-container i{
+    font-size: 100px;
+    color: #305EB8;
+    margin-top: 100px;
+    margin-right: 75px;
+}
+
+.flexbox-item{
+    width: 500px;
+    margin: 10px;
+}
+
+img {
+  height: 300px;
+  width: 400px;
 }
