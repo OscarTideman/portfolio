@@ -2,8 +2,8 @@
   padding: 10px;
   text-align: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   margin: auto;
   border-radius: 20px;
   background-color: #3d3d41;
@@ -12,4 +12,9 @@
 
 .sidebar-item:hover {
   background-color: #4b4b50;
+  transform: scale(1.05);
+}
+
+.mat-icon-resized {
+  transform: scale(1.5);
 }
